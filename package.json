@@ -6,7 +6,7 @@
   "homepage": "https://vivekpanth.github.io/portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages --src "
+    "deploy": "gh-pages --src ./index.html --dest / "
   },
   "author": "vivek",
   "license": "ISC",
