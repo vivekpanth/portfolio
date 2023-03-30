@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website - Vivek panth</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/330221abff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/images/logo9.png" class="logo" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Developer</p>
+          <h1>Hi, I am <span>Vivek</span><br />Panth From India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------About------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="\images/user9.jpg" alt="Vivek's Photo" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am passionate about Software and web Development <br> <br>
+              isodx vmkjjkgb consec tetur adi pis icing elit. Sit qui sntur odio
+              illo tene tur dolores ali quam fugi at mini ma blanditiis suscipit
+              ipsum?
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Ui/Ux</span><br />
+                  <br />
+                  Designing web app interfaces
+                </li>
+                <li>
+                  <span>Web Development</span><br />
+                  <br />
+                  web app development
+                </li>
+                <li>
+                  <span>Programming</span><br />
+                  <br />
+                  Data Structure & Algorithms with C++
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>January 2021-March 2021</span><br />Internship at international MUN</li>
+                <li>
+                  <span>2021</span><br />Mentor at AVIATE'21 organised by NIT Calicut
+                </li>
+                <li><span>May 2020-June 2020</span><br />Volunteer, Team supervisor at tata projects</li>
+                <li>
+                  <span>2020-2022</span><br />Team Leader at YAN (official Aeromodelling club of College)
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br />B-Tech from SGSITS, Indore <br> cgpa- 8.4</li>
+                <li><span>2018</span><br />12th from Mother Teresa School <br> cgpa- 9.05</li>
+                <li><span>2016</span><br />10th from Mother Teresa School <br> cgpa- 8.6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services------ -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              iure unde architecto suscipit aliquid.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>WUI/UX design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              iure unde architecto suscipit aliquid.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App design</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
+              iure unde architecto suscipit aliquid.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------portfolio-------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="\images/work-1.png" alt="image1" />
+            <div class="layer">
+              <h3>E-Commerce website Clone</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur harum maxime vitae?
+              </p>
+              <a href="https://vivekpanth.github.io/flipkart-clone.github.io-/"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="\images/work-29.jpg" alt="image2" />
+            <div class="layer">
+              <h3>Biometrric Attendence using Raspberry pi</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur harum maxime vitae?
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="\images/work-2.png" alt="image3" />
+            <div class="layer">
+              <h3>Semi-Autonomous Rc Plane for vegetation mapping</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur harum maxime vitae?
+              </p>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://vivekpanth.github.io/PortfolioWebsiteVivek/" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ----------contact---- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p href="" >
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >vivekpanth09@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>(+91) 6261895549</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/vivek.panth.35/"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/panth_261/?hl=en"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://twitter.com/vivekpanth23"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/vivek-panth-0a9a701b4/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/vivekpanth"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="\images/vivek_panth-cv.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Vivek. Made with
+          <i class="fa-sharp fa-solid fa-heart"></i> by Vivek Panth
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <!-- --------google sheets form scripts--- -->
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbziPJdUgCChwuiVc8LWSbeFx04I4HO7D1cz7gl6OP91gWGVpu_E2Jb9XIpi0aqzfI23/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg=document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
